@@ -258,17 +258,17 @@ df_long <- df_long %>%
 **Lvl 1:**
 
 $$
-\text{deptot}_{ti} = \beta_{0i} + \beta_{1i} \text{adltotbpmc}_{ti} + e_{ti}
+\text{deptot}_{ti} = \beta_{0i} + \beta_{1i} adltotbpmc_{ti} + e_{ti}
 $$
 
 **Lvl 2:**
 
 $$
-\beta_{0i} = \gamma_{00} + \gamma_{01} \text{adltotbpm}_i + \gamma_{02} \text{race}_i + \gamma_{03} \text{adltotbpm}_i \times
- \text{race}_i + u_{0i}
+\beta_{0i} = \gamma_{00} + \gamma_{01} adltotbpm_i + \gamma_{02} race_i + \gamma_{03} adltotbpm_i \times
+ race_i + u_{0i}
 $$
 
-$$\beta_{1i} = \gamma_{10} + \gamma_{11}\text{race}_i + u_{1i}$$
+$$\beta_{1i} = \gamma_{10} + \gamma_{11} race_i + u_{1i}$$
 
 ## Preliminary analysis
 
